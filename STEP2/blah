@@ -1,0 +1,179 @@
+cc1plus: warning: command line option "-Wno-main" is valid for C/ObjC but not for C++
+In file included from RayTraceState.h:4,
+                 from main.cpp:10:
+Vertex.h:5:21: error: altivec.h: No such file or directory
+cc1plus: warning: command line option "-Wno-main" is valid for C/ObjC but not for C++
+In file included from RayTraceState.h:4,
+                 from main.cpp:10:
+Vertex.h:5:21: error: altivec.h: No such file or directory
+AltivecUtils.h: In function 'float __vector__ splatScalar(const float&)':
+AltivecUtils.h:12: error: 'vec_splats' was not declared in this scope
+AltivecUtils.h: At global scope:
+AltivecUtils.h:15: error: expected initializer before 'int'
+AltivecUtils.h: In function 'unsigned int __vector__ splatScalar(const unsigned int&)':
+AltivecUtils.h:22: error: 'vec_splats' was not declared in this scope
+AltivecUtils.h: At global scope:
+AltivecUtils.h:32: error: expected initializer before 'bool'
+AltivecUtils.h:34: error: expected initializer before 'bool'
+AltivecUtils.h: In function 'float __vector__ pow(float __vector__&, float __vector__&)':
+AltivecUtils.h:67: error: 'vec_abs' was not declared in this scope
+AltivecUtils.h:67: error: 'vec_loge' was not declared in this scope
+AltivecUtils.h:69: error: 'vec_madd' was not declared in this scope
+AltivecUtils.h:70: error: 'vec_expte' was not declared in this scope
+AltivecUtils.h: In function 'float __vector__ reciprocal(float __vector__)':
+AltivecUtils.h:87: error: 'vec_re' was not declared in this scope
+AltivecUtils.h: In function 'float __vector__ divide(float __vector__, float __vector__)':
+AltivecUtils.h:99: error: 'vec_madd' was not declared in this scope
+AltivecUtils.h: In function 'float __vector__ rsqrt(float __vector__)':
+AltivecUtils.h:104: error: 'vec_rsqrte' was not declared in this scope
+AltivecUtils.h: In function 'float __vector__ sqrt(float __vector__)':
+AltivecUtils.h:121: error: 'vec_madd' was not declared in this scope
+Vertex.h: In member function 'Vertex Vertex::operator+(const Vertex&)':
+Vertex.h:105: error: 'vec_add' was not declared in this scope
+Vertex.h: In member function 'Vertex Vertex::operator-(const Vertex&)':
+Vertex.h:110: error: 'vec_sub' was not declared in this scope
+Vertex.h: In member function 'Vertex Vertex::operator*(const float&)':
+Vertex.h:119: error: 'vec_madd' was not declared in this scope
+Color.h: In member function 'void Color::addColor(const Color&)':
+Color.h:44: error: 'vec_add' was not declared in this scope
+Color.h: In member function 'void Color::addColor(const Color&, const float&)':
+Color.h:51: error: 'vec_madd' was not declared in this scope
+VertexGroup.h: In member function 'void VertexGroup::splat(const Vertex&)':
+VertexGroup.h:37: error: 'vec_splat' was not declared in this scope
+VertexGroup.h: In member function 'VertexGroup VertexGroup::madd(float __vector__, VertexGroup)':
+VertexGroup.h:44: error: 'vec_madd' was not declared in this scope
+VertexGroup.h: In member function 'void VertexGroup::normalize()':
+VertexGroup.h:57: error: 'vec_madd' was not declared in this scope
+VertexGroup.h: In member function 'float __vector__ VertexGroup::dot(const VertexGroup&)':
+VertexGroup.h:68: error: 'vec_madd' was not declared in this scope
+VertexGroup.h: In member function 'float __vector__ VertexGroup::distance2(const VertexGroup&)':
+VertexGroup.h:79: error: 'vec_sub' was not declared in this scope
+VertexGroup.h:85: error: 'vec_madd' was not declared in this scope
+VertexGroup.h: In member function 'float __vector__ VertexGroup::distance(const VertexGroup&)':
+VertexGroup.h:98: error: 'vec_madd' was not declared in this scope
+VertexGroup.h: In member function 'VertexGroup VertexGroup::operator-(const VertexGroup&)':
+VertexGroup.h:112: error: 'vec_sub' was not declared in this scope
+VertexGroup.h: In member function 'VertexGroup VertexGroup::operator+(const VertexGroup&)':
+VertexGroup.h:119: error: 'vec_add' was not declared in this scope
+VertexGroup.h: In member function 'void VertexGroup::operator+=(const VertexGroup&)':
+VertexGroup.h:126: error: 'vec_add' was not declared in this scope
+VertexGroup.h: In member function 'void VertexGroup::operator-=(const VertexGroup&)':
+VertexGroup.h:133: error: 'vec_sub' was not declared in this scope
+ColorGroup.h: In member function 'void ColorGroup::splat(const Color&)':
+ColorGroup.h:26: error: 'vec_splat' was not declared in this scope
+ColorGroup.h: In member function 'void ColorGroup::addColor(const ColorGroup&)':
+ColorGroup.h:42: error: 'vec_add' was not declared in this scope
+ColorGroup.h: In member function 'void ColorGroup::addColor(const ColorGroup&, float __vector__)':
+ColorGroup.h:49: error: 'vec_madd' was not declared in this scope
+SceneObject.h: At global scope:
+SceneObject.h:62: error: ISO C++ forbids declaration of 'vector' with no type
+SceneObject.h:62: error: 'vector' declared as a 'virtual' field
+SceneObject.h:62: error: expected ';' before 'bool'
+VectorSInt.h:23: error: ISO C++ forbids declaration of 'vector' with no type
+VectorSInt.h:23: error: expected ';' before 'int'
+VectorSInt.h:30: error: expected `)' before 'int'
+Intersection.h:13: error: ISO C++ forbids declaration of 'vector' with no type
+Intersection.h:13: error: expected ';' before 'bool'
+Scene.h: In member function 'void Scene::getIntersection(Ray*, Intersection&)':
+Scene.h:166: error: missing template arguments before 'int'
+Scene.h:166: error: expected `;' before 'int'
+Scene.h:170: error: 'vec_splat_u32' was not declared in this scope
+Scene.h:172: error: missing template arguments before 'bool'
+Scene.h:172: error: expected `;' before 'bool'
+Scene.h:182: error: missing template arguments before 'bool'
+Scene.h:182: error: expected `;' before 'bool'
+Scene.h:185: error: 'hit' was not declared in this scope
+Scene.h:185: error: 'vec_all_eq' was not declared in this scope
+Scene.h:190: error: 'anyHit' was not declared in this scope
+Scene.h:190: error: 'hit' was not declared in this scope
+Scene.h:190: error: 'vec_or' was not declared in this scope
+Scene.h:192: error: 'vec_and' was not declared in this scope
+Scene.h:194: error: missing template arguments before 'bool'
+Scene.h:194: error: expected `;' before 'bool'
+Scene.h:197: error: missing template arguments before 'int'
+Scene.h:197: error: expected `;' before 'int'
+Scene.h:199: error: 'minIndex' was not declared in this scope
+Scene.h:199: error: 'iSplat' was not declared in this scope
+Scene.h:199: error: 'distCmp' was not declared in this scope
+Scene.h:199: error: 'vec_sel' was not declared in this scope
+Scene.h:210: error: 'struct Intersection' has no member named 'hit'
+Scene.h:210: error: 'anyHit' was not declared in this scope
+Scene.h:210: error: 'struct Intersection' has no member named 'hit'
+Scene.h:210: error: 'vec_and' was not declared in this scope
+Scene.h:212: error: 'struct Intersection' has no member named 'hit'
+Scene.h:212: error: 'vec_any_gt' was not declared in this scope
+Scene.h:214: error: 'struct VectorSInt' has no member named 'vec'
+Scene.h:214: error: 'minIndex' was not declared in this scope
+Scene.h:223: error: 'vec_mergeh' was not declared in this scope
+Scene.h:232: error: 'vec_mergel' was not declared in this scope
+Scene.h: In member function 'void Scene::updateSurfaceColor(ColorGroup&, Light*, Intersection&)':
+Scene.h:262: error: 'vec_sub' was not declared in this scope
+Scene.h:289: error: 'vec_all_lt' was not declared in this scope
+Scene.h:295: error: missing template arguments before 'bool'
+Scene.h:295: error: expected `;' before 'bool'
+Scene.h:298: error: missing template arguments before 'bool'
+Scene.h:298: error: expected `;' before 'bool'
+Scene.h:301: error: 'ldotGtZero' was not declared in this scope
+Scene.h:301: error: 'vec_and' was not declared in this scope
+Scene.h:309: error: 'vec_mergeh' was not declared in this scope
+Scene.h:310: error: 'vec_mergeh' was not declared in this scope
+Scene.h:310: error: declaration of '<typeprefixerror>vec_mergeh'
+Scene.h:309: error: conflicts with previous declaration '<typeprefixerror>vec_mergeh'
+Scene.h:313: error: 'vec_madd' was not declared in this scope
+Scene.h:325: error: 'intenseGtZero' was not declared in this scope
+Scene.h:325: error: 'vec_add' was not declared in this scope
+Sphere.h: At global scope:
+Sphere.h:30: error: ISO C++ forbids declaration of 'vector' with no type
+Sphere.h:30: error: expected ';' before 'bool'
+Sphere.h:74: error: expected `;' before 'void'
+Sphere.h: In member function 'virtual void Sphere::getReflection(Ray*, Ray*, VertexGroup*, VertexGroup*)':
+Sphere.h:78: error: 'vec_sub' was not declared in this scope
+Sphere.h:90: error: 'vec_madd' was not declared in this scope
+Raytracer.h: In member function 'void Raytracer::raytrace(Ray*, ColorGroup*, Scene*, RayTraceParameters*, Intersection&)':
+Raytracer.h:43: error: 'vec_all_lt' was not declared in this scope
+Raytracer.h:45: error: 'vec_all_gt' was not declared in this scope
+Raytracer.h:51: error: 'struct Intersection' has no member named 'hit'
+Raytracer.h:51: error: 'boolZero' was not declared in this scope
+Raytracer.h:51: error: 'vec_any_ne' was not declared in this scope
+Raytracer.h:65: error: 'vec_madd' was not declared in this scope
+Raytracer.h:75: error: 'struct Intersection' has no member named 'hit'
+Raytracer.h:75: error: 'vec_and' was not declared in this scope
+Raytracer.h:75: error: 'vec_add' was not declared in this scope
+main.cpp: At global scope:
+main.cpp:25: error: no matching function for call to 'ColorGroup::ColorGroup()'
+ColorGroup.h:19: note: candidates are: ColorGroup::ColorGroup(const Color&)
+ColorGroup.h:12: note:                 ColorGroup::ColorGroup(float __vector__, float __vector__, float __vector__)
+ColorGroup.h:7: note:                 ColorGroup::ColorGroup(const ColorGroup&)
+main.cpp: In function 'int main(long long unsigned int, long long unsigned int)':
+main.cpp:48: error: 'class Scene' has no member named 'getLights'
+main.cpp:48: error: 'class Scene' has no member named 'getLights'
+main.cpp:50: error: 'class Scene' has no member named 'getObjects'
+main.cpp:50: error: 'class Scene' has no member named 'getObjects'
+main.cpp:51: error: 'class Scene' has no member named 'getObjectsSize'
+main.cpp:63: error: 'vec_splat_u32' was not declared in this scope
+main.cpp:64: error: 'vec_sl' was not declared in this scope
+main.cpp:68: error: 'params' was not declared in this scope
+main.cpp:83: error: missing template arguments before 'bool'
+main.cpp:83: error: expected `;' before 'bool'
+main.cpp:91: error: missing template arguments before 'int'
+main.cpp:91: error: expected `;' before 'int'
+main.cpp:92: error: missing template arguments before 'int'
+main.cpp:92: error: expected `;' before 'int'
+main.cpp:112: error: 'struct Intersection' has no member named 'hit'
+main.cpp:112: error: 'allHit' was not declared in this scope
+main.cpp:114: error: 'raytracer' was not declared in this scope
+main.cpp:122: error: 'volatile struct RayTraceState' has no member named 'pixels'
+main.cpp:108: warning: unused variable 'index'
+main.cpp:139: warning: unused variable 'tracing'
+main.cpp: At global scope:
+main.cpp:27: warning: unused parameter 'spe_id'
+main.cpp: In function 'RayTraceState* getState()':
+main.cpp:150: error: 'X_PIXELS' was not declared in this scope
+main.cpp:150: error: 'Y_PIXELS' was not declared in this scope
+main.cpp:152: error: 'DEFAULT_ZOOM' was not declared in this scope
+main.cpp:155: error: 'PLANE_DISTANCE' was not declared in this scope
+main.cpp:155: error: 'PLANE_ANGLE' was not declared in this scope
+main.cpp:156: error: 'DEFAULT_MAX_REFLECTIONS' was not declared in this scope
+main.cpp:179: error: 'REFLECTIVE' was not declared in this scope
+make[1]: *** [main.o] Error 1
+make: *** [spu] Error 2
